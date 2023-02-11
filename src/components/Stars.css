@@ -1,0 +1,22 @@
+.star-rating {
+	cursor: pointer;
+	display: inline;
+}
+.star-rating > input {
+	display: none;
+}
+
+
+.star-icon > svg {
+	fill: gray;
+	width: 1.2em;
+	height: 1.2em;
+}
+
+.star-icon-yellow > svg{
+	fill: gold;
+}
+
+.star-icon-hover > svg:hover {
+	fill: yellow;
+}
